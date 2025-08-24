@@ -8,6 +8,8 @@ package if2000_introduccionprogra;
  *
  * @author josha
  */
+import domain.Person;
+import logic.*;
 public class If2000_introduccionprogra {
 
     /**
@@ -38,6 +40,17 @@ public class If2000_introduccionprogra {
         Arrays or Vectors: int[] x;
                            int[][] y;
         */
+        Ejercicios_Semana2_PracticaEnClase ej;
+        ej  = new Ejercicios_Semana2_PracticaEnClase();
+        ej.ejercicioA(5);
+        
+         
+        ej  = new Ejercicios_Semana2_PracticaEnClase();
+        ej.ejercicioB(12);
+        
+        ej  = new Ejercicios_Semana2_PracticaEnClase();
+        ej.ejercicioC(10);
+        
     }
     
 }
