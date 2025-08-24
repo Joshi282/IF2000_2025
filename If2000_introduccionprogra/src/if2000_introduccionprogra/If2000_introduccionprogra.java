@@ -51,6 +51,10 @@ public class If2000_introduccionprogra {
         ej  = new Ejercicios_Semana2_PracticaEnClase();
         ej.ejercicioC(10);
         
+        ej  = new Ejercicios_Semana2_PracticaEnClase();
+        ej.ejercicioD();
+        
+        
     }
     
 }
