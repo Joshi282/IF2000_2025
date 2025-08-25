@@ -9,6 +9,9 @@ package logic;
  * @author josha
  */
 import java.util.Scanner;
+import java.util.Random;
+import java.util.Arrays;
+import java.util.Collections;
 
 public class Ejercicios_Semana2_PracticaEnClase {
 
@@ -93,7 +96,66 @@ public class Ejercicios_Semana2_PracticaEnClase {
             System.out.print(numeros[i] + " ");
         }
         System.out.println();
-    }      
+    }  
+     public void ejercicioE() {
+        Integer[] numeros = new Integer[100];
+        Random random = new Random();
+
+        // Generar 100 números aleatorios
+        for (int i = 0; i < numeros.length; i++) {
+            numeros[i] = random.nextInt(1000); // Números del 0 al 999
+        }
+
+        // Ordenar descendente
+        Arrays.sort(numeros, Collections.reverseOrder());
+
+        // Imprimir el arreglo ordenado
+        System.out.println("Arreglo ordenado en forma descendente:");
+        for (int i = 0; i < numeros.length; i++) {
+            System.out.print(numeros[i] + " ");
+        }
+        System.out.println();
+    }
+public void ejercicioF() {
+    String[][] tablero = new String[8][8];
+
+    // Inicializar el tablero con espacios
+    for (int fila = 0; fila < 8; fila++) {
+        for (int col = 0; col < 8; col++) {
+            tablero[fila][col] = " ";
+        }
+    }
+     for (int fila = 0; fila < 3; fila++) {
+        for (int col = 0; col < 8; col++) {
+            if ((fila + col) % 2 != 0) {
+                tablero[fila][col] = "N";
+            }
+        }
+    }
+     
+      for (int fila = 5; fila < 8; fila++) {
+        for (int col = 0; col < 8; col++) {
+            if ((fila + col) % 2 != 0) {
+                tablero[fila][col] = "R";
+            }
+        }
+    }
+      
+      System.out.println("  1    2    3    4    5    6    7    8");
+
+    // Letras para las filas (A a H)
+    char filaLetra = 'A';
+
+    for (int fila = 0; fila < 8; fila++) {
+        System.out.print(filaLetra + " ");
+        for (int col = 0; col < 8; col++) {
+            System.out.print(tablero[fila][col] + "    ");
+        }
+        System.out.println();
+        filaLetra++;
+    }
+}
+
       
    }
 
