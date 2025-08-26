@@ -26,7 +26,7 @@ public class Ejercicios_Semana2_PracticaEnClase {
         }
         System.out.println();
 
-        
+        // filas intermedia
         for (int i = 1; i <= n - 2; i++) {
             System.out.print("*    "); 
 
