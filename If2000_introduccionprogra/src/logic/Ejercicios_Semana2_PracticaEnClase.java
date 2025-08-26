@@ -26,15 +26,15 @@ public class Ejercicios_Semana2_PracticaEnClase {
         }
         System.out.println();
 
-        // Filas intermedias
+        
         for (int i = 1; i <= n - 2; i++) {
-            System.out.print("*    "); // Primer asterisco
+            System.out.print("*    "); 
 
             for (int j = 1; j <= n - 2; j++) {
-                System.out.print("     "); // Espacios en el centro
+                System.out.print("     "); 
             }
 
-            System.out.print("*    "); // Último asterisco
+            System.out.print("*    "); 
             System.out.println();
         }
           for (int j = 1; j <= n && n > 1; j++) {
@@ -79,7 +79,7 @@ public class Ejercicios_Semana2_PracticaEnClase {
             numeros[i] = sc.nextInt();
         }
 
-        // Ordenamiento burbuja ascendente
+        
         for (int i = 0; i < numeros.length - 1; i++) {
             for (int j = 0; j < numeros.length - 1 - i; j++) {
                 if (numeros[j] > numeros[j + 1]) {
@@ -90,7 +90,7 @@ public class Ejercicios_Semana2_PracticaEnClase {
             }
         }
 
-        // Imprimir el arreglo ordenado
+       
         System.out.println("\nArreglo ordenado ascendentemente:");
         for (int i = 0; i < numeros.length; i++) {
             System.out.print(numeros[i] + " ");
@@ -101,15 +101,15 @@ public class Ejercicios_Semana2_PracticaEnClase {
         Integer[] numeros = new Integer[100];
         Random random = new Random();
 
-        // Generar 100 números aleatorios
+       
         for (int i = 0; i < numeros.length; i++) {
             numeros[i] = random.nextInt(1000); // Números del 0 al 999
         }
 
-        // Ordenar descendente
+        
         Arrays.sort(numeros, Collections.reverseOrder());
 
-        // Imprimir el arreglo ordenado
+        
         System.out.println("Arreglo ordenado en forma descendente:");
         for (int i = 0; i < numeros.length; i++) {
             System.out.print(numeros[i] + " ");
@@ -119,7 +119,7 @@ public class Ejercicios_Semana2_PracticaEnClase {
 public void ejercicioF() {
     String[][] tablero = new String[8][8];
 
-    // Inicializar el tablero con espacios
+    
     for (int fila = 0; fila < 8; fila++) {
         for (int col = 0; col < 8; col++) {
             tablero[fila][col] = " ";
@@ -143,7 +143,7 @@ public void ejercicioF() {
       
       System.out.println("  1    2    3    4    5    6    7    8");
 
-    // Letras para las filas (A a H)
+    
     char filaLetra = 'A';
 
     for (int fila = 0; fila < 8; fila++) {
@@ -156,8 +156,12 @@ public void ejercicioF() {
     }
 }
 
+        
+          }
+
+
       
-   }
+   
 
 
          
