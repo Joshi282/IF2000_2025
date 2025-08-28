@@ -17,7 +17,7 @@ public class If2000_introduccionprogra {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        
+        /*
         String name = "Lionel";
         int age = 40;
         System.out.println("Hello word");
@@ -40,6 +40,7 @@ public class If2000_introduccionprogra {
         Arrays or Vectors: int[] x;
                            int[][] y;
         */
+        /*
         Ejercicios_Semana2_PracticaEnClase ej;
         ej  = new Ejercicios_Semana2_PracticaEnClase();
         ej.ejercicioA(5);
@@ -59,6 +60,27 @@ public class If2000_introduccionprogra {
         
         ej  = new Ejercicios_Semana2_PracticaEnClase();
         ej.ejercicioF();
+        
+        ej  = new Ejercicios_Semana2_PracticaEnClase();
+        ej.quiz3();
+      */
+              Lab1_Ejercicios ej = new Lab1_Ejercicios();
+
+        ej.ejercicio1();  
+        ej.ejercicio2();  
+        ej.ejercicio3();
+        ej.ejercicio4();
+        ej.ejercicio5();
+        ej.ejercicio6();
+        ej.ejercicio7();
+        ej.ejercicio8();
+        ej.ejercicio9();
+        ej.ejercicio10();
+        ej.ejercicio11();
+        ej.ejercicio12();
+
+        ej.cerrarScanner();
+       
         
          
         

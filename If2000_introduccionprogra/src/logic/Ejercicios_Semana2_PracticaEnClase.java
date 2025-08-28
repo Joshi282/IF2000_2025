@@ -156,8 +156,53 @@ public void ejercicioF() {
     }
 }
 
+      public void quiz3(){
+              
+      
+      
+
         
-          }
+        for (int i = 0; i < 9; i++) {
+            System.out.print("* ");
+        }
+        System.out.println();
+
+       
+        System.out.print("* ");
+        for (int i = 0; i < 7; i++) {
+            System.out.print("  ");
+        }
+        System.out.println("*");
+      System.out.print("* ");
+        for (int i = 0; i < 3; i++) {
+            System.out.print("  ");
+        }
+        System.out.print("* ");
+        for (int i = 0; i < 3; i++) {
+            System.out.print("  ");
+        }
+        System.out.println("*");
+
+        
+        System.out.print("* ");
+        for (int i = 0; i < 7; i++) {
+            System.out.print("  ");
+        }
+        System.out.println("*");
+
+       
+        for (int i = 0; i < 9; i++) {
+            System.out.print("* ");
+        }
+        System.out.println();
+      }
+
+       }
+
+
+
+        
+          
 
 
       
