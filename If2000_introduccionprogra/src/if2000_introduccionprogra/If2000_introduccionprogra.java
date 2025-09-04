@@ -64,7 +64,7 @@ public class If2000_introduccionprogra {
         ej  = new Ejercicios_Semana2_PracticaEnClase();
         ej.quiz3();
       */
-              Lab1_Ejercicios ej = new Lab1_Ejercicios();
+             /* Lab1_Ejercicios ej = new Lab1_Ejercicios();
 
         ej.ejercicio1();  
         ej.ejercicio2();  
@@ -79,8 +79,26 @@ public class If2000_introduccionprogra {
         ej.ejercicio11();
         ej.ejercicio12();
 
-        ej.cerrarScanner();
-       
+        ej.cerrarScanner();*/
+             
+            Laboratorio_2 lab = new Laboratorio_2();
+
+         
+         lab.convertirCelsiusAFahrenheit();
+         lab.potencia();
+         lab.numeroAMes();
+        lab.evaluarFuncion();
+         lab.areaTriangulo();
+         lab.intercambiarValores();
+         lab.ecuacionRecta();
+         lab.sumaNaturales();
+         lab.promedioNumeros();
+         lab.analisisDiezNumeros();
+         lab.sumaParesImpares200();
+         lab.sumaCuadrados();
+        lab.factorial();
+         lab.maximoDeDiez();
+         lab.sumaPares2a1000();
         
          
         
