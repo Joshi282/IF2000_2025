@@ -12,7 +12,7 @@ public class CheckingAccount extends Account {
     private double interestRate;
 
     public CheckingAccount(String accountNumber, double balance, Person client, double interestRate) {
-        super(accountNumber, balance, client); // 🔑 Llamada correcta al constructor de Account
+        super(accountNumber, balance, client); // Llamar Account
         this.interestRate = interestRate;
     }
 
