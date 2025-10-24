@@ -81,7 +81,7 @@ public class If2000_introduccionprogra {
 
         ej.cerrarScanner();*/
              
-            Laboratorio_2 lab = new Laboratorio_2();
+            /*Laboratorio_2 lab = new Laboratorio_2();
 
          
          lab.convertirCelsiusAFahrenheit();
@@ -102,7 +102,8 @@ public class If2000_introduccionprogra {
         
          
         
-    }
-    
+    */
+     Juego juego = new Juego();
+        juego.jugar();
 }
- 
+}
